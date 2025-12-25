@@ -1,0 +1,15 @@
+{
+  "short_name": "Portfolio",
+  "name": "Ivan Ivanov Portfolio Site",
+  "icons": [
+    {
+      "src": "img/logo.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "theme_color": "#3498db"
+}

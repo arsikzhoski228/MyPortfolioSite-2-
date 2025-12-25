@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио веб-разработчика | Иван Иванов</title>
+    <meta name="description" content="Профессиональное портфолио веб-разработчика Ивана Иванова. Кейсы, навыки и контакты.">
+    <meta name="keywords" content="веб-разработка, создание сайтов, портфолио, HTML, CSS, JavaScript">
+    <meta name="author" content="Иван Иванов">
+    <link rel="canonical" href="https://arsikzhoski228.github.io/MyPortfolioSite/">
+    
+    <meta property="og:title" content="Портфолио">
+    <meta property="og:description" content="Посмотрите мои лучшие работы в сфере веб-разработки.">
+    <meta property="og:image" content="/img/preview-og.png">
+    <meta property="og:url" content="https://arsikzhoski228.github.io/MyPortfolioSite/">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3498db">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Иван Иванов",
+      "url": "https://arsikzhoski228.github.io/MyPortfolioSite/",
+      "jobTitle": "Web Developer",
+      "sameAs": ["https://github.com/arsikzhoski228"]
+    }
+    </script>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img/logo.webp" alt="Логотип студии Иванова" width="50" height="50">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">Обо мне</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Добро пожаловать в моё портфолио</h1>
+        <section>
+            <h2>Мои проекты</h2>
+            <div class="projects">
+                <article>
+                    <h3>Сайт-визитка</h3>
+                    <img src="img/project1.webp" alt="Скриншот проекта интернет-магазина" loading="lazy" width="300" height="200">
+                    <p>Краткое описание проекта с использованием ключевых слов разработка и дизайн.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="faq">
+            <h2>Часто задаваемые вопросы (FAQ)</h2>
+            <details>
+                <summary>Каковы сроки разработки?</summary>
+                <p>Обычно создание сайта занимает от 2 до 4 недель.</p>
+            </details>
+        </section>
+
+        <section>
+            <h2>Рекомендуем посмотреть</h2>
+            <p>Узнайте больше <a href="about.html">обо мне</a> или перейдите к <a href="contact.html">контактам</a>.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Иван Иванов. Работает на GitHub Pages.</p>
+    </footer>
+
+    <script>
+        document.querySelector('a[href="contact.html"]').addEventListener('click', function() {
+            gtag('event', 'contact_click', {'event_category': 'navigation'});
+        });
+    </script>
+</body>
+</html>
