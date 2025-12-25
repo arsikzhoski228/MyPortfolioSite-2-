@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://arsikzhoski228.github.io/MyPortfolioSite/sitemap.xml
+
+Sitemap: https://github.com/arsikzhoski228/MyPortfolioSite-2-/sitemap.xml
